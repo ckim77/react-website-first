@@ -73,13 +73,13 @@ function App() {
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
-          <Grid icon={<SecurityIcon style={{fill: "#2D3F36", height:"125", width:"300"}}/>}  title="Secure" btnTitle="Show me More" />
-          <Grid icon={<EventNoteIcon style={{fill: "#778D82", height:"125", width:"300"}}/>} title="Reliable" btnTitle="Show me More"/>
-          <Grid icon={<TrendingUpIcon style={{fill: "#84C2B8", height:"125", width:"300"}}/>}  title="Performant" btnTitle="Show me More"/>
+          <Grid icon={<SecurityIcon style={{fill: "#0F302B", height:"125", width:"300"}}/>}  title="Secure" btnTitle="Show me More" />
+          <Grid icon={<EventNoteIcon style={{fill: "#229248", height:"125", width:"300"}}/>} title="Reliable" btnTitle="Show me More"/>
+          <Grid icon={<TrendingUpIcon style={{fill: "#B9C444", height:"125", width:"300"}}/>}  title="Performant" btnTitle="Show me More"/>
         </div>
         <div className={`${classes.grid} ${classes.littleSpace}`}>  
-          <Grid icon={<ImportExportIcon style={{fill: "#E1DFCC", height:"125", width:"300"}}/>}  title="Modular" btnTitle="Show me More"/>
-          <Grid icon={<ComputerIcon style={{fill: "#A89278", height:"125", width:"300"}}/>}  title="Multi-Platform" btnTitle="Show me More"/>
+          <Grid icon={<ImportExportIcon style={{fill: "#F7E47B", height:"125", width:"300"}}/>}  title="Modular" btnTitle="Show me More"/>
+          <Grid icon={<ComputerIcon style={{fill: "#DB5131", height:"125", width:"300"}}/>}  title="Multi-Platform" btnTitle="Show me More"/>
           <Grid icon={<HttpIcon style={{fill: "#2EA09D", height:"125", width:"300"}}/>} title="Connected" btnTitle="Show me More"/>
         </div>
         <div className={classes.bigSpace}>
